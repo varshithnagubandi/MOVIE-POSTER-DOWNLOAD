@@ -11,7 +11,7 @@ const App = () => {
     }
     try {
       console.log(moviename);
-      const url = `http://www.omdbapi.com/?s=${moviename}&apikey=1ab50717`;
+      const url = `https://www.omdbapi.com/?s=${moviename}&apikey=1ab50717`;
       const response = await fetch(url);
       const data = await response.json();
       console.log(data);
