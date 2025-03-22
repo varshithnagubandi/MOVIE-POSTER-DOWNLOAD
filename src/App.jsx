@@ -88,7 +88,7 @@ const App = () => {
                   <p className="text-muted">Year: {movie.Year}</p>
 
                   <a
-                    href={movie.Poster}
+                    
                     className="btn btn-primary"
                     onClick={() => download(movie.Poster)}
                   >
